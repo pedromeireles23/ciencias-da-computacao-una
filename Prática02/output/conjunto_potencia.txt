@@ -1,0 +1,11 @@
+Conjunto potência:
+{ }
+{ 1 }
+{ 2 }
+{ 1 2 }
+
+Conjunto potência:
+{ }
+{ 3 }
+{ 4 }
+{ 3 4 }
