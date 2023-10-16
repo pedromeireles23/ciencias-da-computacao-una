@@ -12,17 +12,12 @@
 
 #include <stdio.h>
 
-// Função sucessor (s)
-int sucessor(int n) {
-    return n + 1;
-}
-
 // Função de soma recursiva
 int soma(int m, int n) {
     if (n == 0) {
         return m;
     } else {
-        return soma(m, sucessor(n));
+        return soma(m + 1, n - 1);
     }
 }
 
