@@ -1,0 +1,2 @@
+Tamanho da string: 11
+Reverso da string: !odnum ¡ÃlO

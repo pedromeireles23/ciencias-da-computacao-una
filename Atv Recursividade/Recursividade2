@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int somaNaturais(int n) {
+    if (n == 1) {
+        return 1; // Caso base: a soma de 1 número natural é 1.
+    } else {
+        return n + somaNaturais(n - 1); // Chamada recursiva para somar os números naturais de n a 1.
+    }
+}
+
+int main() {
+    int n;
+    printf("Digite o valor de n: ");
+    scanf("%d", &n);
+
+    if (n <= 0) {
+        printf("O valor de n deve ser maior que zero.\n");
+    } else {
+        int resultado = somaNaturais(n);
+        printf("A soma dos primeiros %d números naturais é: %d\n", n, resultado);
+    }
+
+    return 0;
+}

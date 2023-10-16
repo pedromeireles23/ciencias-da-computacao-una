@@ -1,0 +1,14 @@
+#include <ctype.h>
+#include <stdio.h>
+
+int main() {
+    char c = 'a';
+
+    if (islower(c)) {
+        printf("%c é uma letra minúscula.\n", c);
+    } else {
+        printf("%c não é uma letra minúscula.\n", c);
+    }
+
+    return 0;
+}
